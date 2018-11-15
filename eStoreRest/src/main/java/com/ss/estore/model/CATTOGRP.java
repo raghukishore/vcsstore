@@ -1,12 +1,17 @@
 package com.ss.estore.model;
 
+import java.io.Serializable;
 import java.sql.Date;
 
 /**
  * @author Raghu Kishore
  *
  */
-public class CATTOGRP {
+public class CATTOGRP  implements Serializable{
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -6773763570735000019L;
 	private int catId;
 	private int catGrpId;
 	private Date lastUpdated;

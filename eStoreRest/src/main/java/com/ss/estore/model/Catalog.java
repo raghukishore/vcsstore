@@ -3,11 +3,17 @@
  */
 package com.ss.estore.model;
 
+import java.io.Serializable;
+
 /**
  * @author Raghu Kishore
  *
  */
-public class Catalog {
+public class Catalog  implements Serializable{
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -4180476452975750483L;
 	private int catId;
 	private int memberId;
 	private String identifier;

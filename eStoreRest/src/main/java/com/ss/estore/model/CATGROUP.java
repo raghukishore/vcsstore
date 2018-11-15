@@ -1,12 +1,17 @@
 package com.ss.estore.model;
 
+import java.io.Serializable;
 import java.sql.Date;
 
 /**
  * @author Raghu Kishore
  *
  */
-public class CATGROUP {
+public class CATGROUP  implements Serializable{
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 8214747196169813665L;
 	private String catGrpId;
 	private String memberId;
 	private String identifier;

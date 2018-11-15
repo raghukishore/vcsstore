@@ -3,11 +3,17 @@
  */
 package com.ss.estore.model;
 
+import java.io.Serializable;
+
 /**
  * @author Raghu Kishore
  *
  */
-public class Language {
+public class Language  implements Serializable{
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 9170220243670104748L;
 	private int langId;
 	private String localeName;
 	private String language;
